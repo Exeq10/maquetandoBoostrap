@@ -1,0 +1,167 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Ajustes barra navegacion */
+
+.navbar {
+    padding: 1.3rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: -4px 14px 18px -15px rgba(217, 224, 224, 1);
+    -moz-box-shadow: -4px 14px 18px -15px rgba(217, 224, 224, 1);
+    box-shadow: -4px 14px 18px -15px rgba(217, 224, 224, 1);
+}
+
+.navbar-toggler {
+    width: 5rem;
+    height: 5rem;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+}
+
+.titulo span {
+    font-size: 6rem;
+}
+
+.enlace {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+@media(min-width: 768px) {
+    .links {
+        flex-direction: row;
+    }
+}
+
+.links li {
+    font-size: 2rem;
+    display: block;
+}
+
+.links li a {
+    color: red;
+    font-weight: bold;
+    transition: all 300ms;
+}
+
+.links li a:hover {
+    color: black;
+}
+
+
+/* fin ajustes navegacion */
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+
+/* ajustes en cards */
+
+.card img {
+    height: 30rem;
+}
+
+.card-text {
+    font-size: 1.6rem;
+}
+
+
+/* fin ajustes cards */
+
+.margin {
+    margin-top: 5rem;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+/* seccion contacto */
+
+
+/* ajustes formulario */
+
+.formulario {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario input {
+    font-size: 1.5rem;
+}
+
+.formulario textarea {
+    font-size: 1.5rem;
+}
+
+.mb-3 {
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.boton {
+    width: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20rem;
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.2rem;
+    background-color: greenyellow;
+    transition: all 300ms;
+}
+
+.boton:hover {
+    background-color: yellow
+}
